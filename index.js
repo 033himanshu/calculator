@@ -53,7 +53,7 @@ const setOutput = () => {
             output.innerText = parseInt(res)
         }
     }else{
-        history.unshift({exp : [...expression], res :  (res?.error) ? res: {val:res}})
+        history.unshift({exp : [...expression], res :  (res?.error) ? res: {val:parseInt(res)}})
         history[0].exp.pop()
         if(history.length>5) 
             history.pop()
