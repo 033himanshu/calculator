@@ -70,7 +70,7 @@ const setOutput = () => {
         exp += e
     input.innerText = exp
 }
-const setInvalidExpression = (msg = "Invalid Attempt\ns") => {
+const setInvalidExpression = (msg = "Invalid Attempt\n") => {
     span.innerText = msg
 }
 //adding click event
